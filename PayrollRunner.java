@@ -1,4 +1,3 @@
-
 public class PayrollRunner {
 public static void main(String[] args) {
 System.out.println(Payroll.init());
