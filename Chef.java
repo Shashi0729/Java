@@ -1,21 +1,19 @@
-
-public class Chef {
-     byte knifeSize = 8;
-     short cookingTime = 30;
-     int chefId = 456;
-     long restaurantId = 2222222222L;
-     float sauceConsistency = 0.8f;
-     double menuPrice = 25.0;
-     char cookingMethod = 'G';
-     boolean isHeadChef = true;
-     byte numberOfRecipes = 10;
-     short yearsOfExperience = 8;
-     int numberOfKitchenStaff = 5;
-     long foodTruckId = 3333333333L;
-     float ingredientQuality = 0.9f;
-     double cookingTemperature = 375.0;
-     char cuisineType = 'I';
-     boolean hasCookedForCelebrities = false;
-     byte numberOfCookbooks = 2;
+ublic class Athlete {
+byte jerseyNumber = 12;
+short minutesPlayed = 45;
+int athleteId = 789;
+long teamId = 1234567890L;
+float speed = 25.5f;
+double jumpHeight = 6.8;
+char position = 'G';
+boolean isCaptain = true;
+byte numberOfGoals = 10;
+short yearsOfExperience = 5;
+int numberOfAssists = 8;
+long sportsEquipmentId = 9876543210L;
+float enduranceLevel = 0.7f;
+double reactionTime = 2.5;
+char sport = 'S';
+boolean hasWonChampionship = false;
+byte numberOfAwards = 3;
 }
-

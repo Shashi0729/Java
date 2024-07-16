@@ -1,0 +1,530 @@
+public class Teacher {
+  
+    int teacherId;
+    String firstName;
+    String lastName;
+    int age;
+    String subject;
+    String grade;
+    double salary;
+    String email;
+    String phoneNumber;
+    String address;
+    String city;
+    String state;
+    String zipCode;
+
+
+    static int teacherIdStatic;
+    static String firstNameStatic;
+    static String lastNameStatic;
+    static int ageStatic;
+    static String subjectStatic;
+    static String gradeStatic;
+    static double salaryStatic;
+    static String emailStatic;
+    static String phoneNumberStatic;
+    static String addressStatic;
+    static String cityStatic;
+    static String stateStatic;
+    static String zipCodeStatic;
+
+    public Teacher() {}
+
+
+    public static void main(String[] args) {
+        Teacher teacher1 = new Teacher();
+        teacher1.teacherId = 1001;
+        teacher1.firstName = "John";
+        teacher1.lastName = "Doe";
+        teacher1.age = 45;
+        teacher1.subject = "Math";
+        teacher1.grade = "9th";
+        teacher1.salary = 65000.0;
+        teacher1.email = "john.doe@school.edu";
+        teacher1.phoneNumber = "555-1234";
+        teacher1.address = "123 Main St";
+        teacher1.city = "Anytown";
+        teacher1.state = "CA";
+        teacher1.zipCode = "12345";
+
+        Teacher teacher2 = new Teacher();
+        teacher2.teacherId = 1002;
+        teacher2.firstName = "Jane";
+        teacher2.lastName = "Smith";
+        teacher2.age = 38;
+        teacher2.subject = "English";
+        teacher2.grade = "11th";
+        teacher2.salary = 58000.0;
+        teacher2.email = "jane.smith@school.edu";
+        teacher2.phoneNumber = "555-5678";
+        teacher2.address = "456 Oak Rd";
+        teacher2.city = "Anytown";
+        teacher2.state = "NY";
+        teacher2.zipCode = "67890";
+
+        Teacher teacher3 = new Teacher();
+        teacher3.teacherId = 1003;
+        teacher3.firstName = "Michael";
+        teacher3.lastName = "Johnson";
+        teacher3.age = 52;
+        teacher3.subject = "Science";
+        teacher3.grade = "8th";
+        teacher3.salary = 72000.0;
+        teacher3.email = "michael.johnson@school.edu";
+        teacher3.phoneNumber = "555-9012";
+        teacher3.address = "789 Elm St";
+        teacher3.city = "Anytown";
+        teacher3.state = "TX";
+        teacher3.zipCode = "54321";
+
+        Teacher teacher4 = new Teacher();
+        teacher4.teacherId = 1004;
+        teacher4.firstName = "Emily";
+        teacher4.lastName = "Davis";
+        teacher4.age = 41;
+        teacher4.subject = "History";
+        teacher4.grade = "10th";
+        teacher4.salary = 62000.0;
+        teacher4.email = "emily.davis@school.edu";
+        teacher4.phoneNumber = "555-3456";
+        teacher4.address = "321 Oak Ln";
+        teacher4.city = "Anytown";
+        teacher4.state = "FL";
+        teacher4.zipCode = "98765";
+
+        Teacher teacher5 = new Teacher();
+        teacher5.teacherId = 1005;
+        teacher5.firstName = "David";
+        teacher5.lastName = "Wilson";
+        teacher5.age = 47;
+        teacher5.subject = "Art";
+        teacher5.grade = "7th";
+        teacher5.salary = 68000.0;
+        teacher5.email = "david.wilson@school.edu";
+        teacher5.phoneNumber = "555-7890";
+        teacher5.address = "654 Maple Dr";
+        teacher5.city = "Anytown";
+        teacher5.state = "GA";
+        teacher5.zipCode = "43210";
+		
+		Teacher teacher6 = new Teacher();
+teacher6.teacherId = 1006;
+teacher6.firstName = "David";
+teacher6.lastName = "Wilson";
+teacher6.age = 47;
+teacher6.subject = "Art";
+teacher6.grade = "7th";
+teacher6.salary = 68000.0;
+teacher6.email = "david.wilson@school.edu";
+teacher6.phoneNumber = "555-7890";
+teacher6.address = "654 Maple Dr";
+teacher6.city = "Anytown";
+teacher6.state = "GA";
+teacher6.zipCode = "43210";
+
+Teacher teacher7 = new Teacher();
+teacher7.teacherId = 1007;
+teacher7.firstName = "David";
+teacher7.lastName = "Wilson";
+teacher7.age = 47;
+teacher7.subject = "Art";
+teacher7.grade = "7th";
+teacher7.salary = 68000.0;
+teacher7.email = "david.wilson@school.edu";
+teacher7.phoneNumber = "555-7890";
+teacher7.address = "654 Maple Dr";
+teacher7.city = "Anytown";
+teacher7.state = "GA";
+teacher7.zipCode = "43210";
+
+Teacher teacher8 = new Teacher();
+teacher8.teacherId = 1008;
+teacher8.firstName = "Emily";
+teacher8.lastName = "Chen";
+teacher8.age = 32;
+teacher8.subject = "Math";
+teacher8.grade = "8th";
+teacher8.salary = 66000.0;
+teacher8.email = "emily.chen@school.edu";
+teacher8.phoneNumber = "555-1234";
+teacher8.address = "789 Oak St";
+teacher8.city = "Anytown";
+teacher8.state = "CA";
+teacher8.zipCode = "90210";
+
+Teacher teacher9 = new Teacher();
+teacher9.teacherId = 1009;
+teacher9.firstName = "Jackson";
+teacher9.lastName = "Hall";
+teacher9.age = 35;
+teacher9.subject = "Science";
+teacher9.grade = "9th";
+teacher9.salary = 70000.0;
+teacher9.email = "jackson.hall@school.edu";
+teacher9.phoneNumber = "555-5678";
+teacher9.address = "901 Maple St";
+teacher9.city = "Anytown";
+teacher9.state = "NY";
+teacher9.zipCode = "10011";
+
+Teacher teacher10 = new Teacher();
+teacher10.teacherId = 1010;
+teacher10.firstName = "Sophia";
+teacher10.lastName = "Patel";
+teacher10.age = 30;
+teacher10.subject = "English";
+teacher10.grade = "10th";
+teacher10.salary = 64000.0;
+teacher10.email = "sophia.patel@school.edu";
+teacher10.phoneNumber = "555-9012";
+teacher10.address = "234 Walnut St";
+teacher10.city = "Anytown";
+teacher10.state = "TX";
+teacher10.zipCode = "77001";
+
+
+teacher11.teacherId = 1011;
+teacher11.firstName = "Charlotte";
+teacher11.lastName = "Ramos";
+teacher11.age = 36;
+teacher11.subject = "History";
+teacher11.grade = "11th";
+teacher11.salary = 72000.0;
+teacher11.email = "charlotte.ramos@school.edu";
+teacher11.phoneNumber = "555-6666";
+teacher11.address = "456 Elm St";
+teacher11.city = "Anytown";
+teacher11.state = "FL";
+teacher11.zipCode = "33111";
+
+teacher12.teacherId = 1012;
+teacher12.firstName = "Logan";
+teacher12.lastName = "Patel";
+teacher12.age = 29;
+teacher12.subject = "Foreign Language";
+teacher12.grade = "12th";
+teacher12.salary = 68000.0;
+teacher12.email = "logan.patel@school.edu";
+teacher12.phoneNumber = "555-7777";
+teacher12.address = "789 Cedar St";
+teacher12.city = "Anytown";
+teacher12.state = "IL";
+teacher12.zipCode = "60601";
+
+teacher13.teacherId = 1013;
+teacher13.firstName = "Abigail";
+teacher13.lastName = "Garcia";
+teacher13.age = 33;
+teacher13.subject = "Physical Education";
+teacher13.grade = "7th";
+teacher13.salary = 66000.0;
+teacher13.email = "abigail.garcia@school.edu";
+teacher13.phoneNumber = "555-8888";
+teacher13.address = "890 Cherry St";
+teacher13.city = "Anytown";
+teacher13.state = "GA";
+teacher13.zipCode = "31201";
+
+teacher14.teacherId = 1014;
+teacher14.firstName = "Julian";
+teacher14.lastName = "Lee";
+teacher14.age = 31;
+teacher14.subject = "Music";
+teacher14.grade = "8th";
+teacher14.salary = 64000.0;
+teacher14.email = "julian.lee@school.edu";
+teacher14.phoneNumber = "555-9999";
+teacher14.address = "345 Birch St";
+teacher14.city = "Anytown";
+teacher14.state = "MI";
+teacher14.zipCode = "48101";
+
+teacher15.teacherId = 1015;
+teacher15.firstName = "Sofia";
+teacher15.lastName = "Kim";
+teacher15.age = 34;
+teacher15.subject = "Art";
+teacher15.grade = "9th";
+teacher15.salary = 70000.0;
+teacher15.email = "sofia.kim@school.edu";
+teacher15.phoneNumber = "555-0000";
+teacher15.address = "678 Oak St";
+teacher15.city = "Anytown";
+teacher15.state = "NY";
+teacher15.zipCode = "10011";
+
+teacher16.teacherId = 1016;
+teacher16.firstName = "Mason";
+teacher16.lastName = "Wang";
+teacher16.age = 29;
+teacher16.subject = "Math";
+teacher16.grade = "10th";
+teacher16.salary = 68000.0;
+teacher16.email = "mason.wang@school.edu";
+teacher16.phoneNumber = "555-1111";
+teacher16.address = "901 Maple St";
+teacher16.city = "Anytown";
+teacher16.state = "CA";
+teacher16.zipCode = "90210";
+
+teacher17.teacherId = 1017;
+teacher17.firstName = "Aidan";
+teacher17.lastName = "Ramos";
+teacher17.age = 35;
+teacher17.subject = "Science";
+teacher17.grade = "11th";
+teacher17.salary = 72000.0;
+teacher17.email = "aidan.ramos@school.edu";
+teacher17.phoneNumber = "555-2222";
+teacher17.address = "234 Walnut St";
+teacher17.city = "Anytown";
+teacher17.state = "TX";
+teacher17.zipCode = "77001";
+
+
+teacher1.teacherIdStatic = 1001;
+teacher1.firstNameStatic = "John";
+teacher1.lastNameStatic = "Doe";
+teacher1.ageStatic = 35;
+teacher1.subjectStatic = "Math";
+teacher1.gradeStatic = "10th";
+teacher1.salaryStatic = 70000.0;
+teacher1.emailStatic = "john.doe@school.edu";
+teacher1.phoneNumberStatic = "555-1234";
+teacher1.addressStatic = "123 Main St";
+teacher1.cityStatic = "Anytown";
+teacher1.stateStatic = "CA";
+teacher1.zipCodeStatic = "90210";
+
+teacher2.teacherIdStatic = 1002;
+teacher2.firstNameStatic = "Jane";
+teacher2.lastNameStatic = "Smith";
+teacher2.ageStatic = 30;
+teacher2.subjectStatic = "English";
+teacher2.gradeStatic = "9th";
+teacher2.salaryStatic = 65000.0;
+teacher2.emailStatic = "jane.smith@school.edu";
+teacher2.phoneNumberStatic = "555-5678";
+teacher2.addressStatic = "456 Elm St";
+teacher2.cityStatic = "Anytown";
+teacher2.stateStatic = "NY";
+teacher2.zipCodeStatic = "10011";
+
+teacher3.teacherIdStatic = 1003;
+teacher3.firstNameStatic = "Bob";
+teacher3.lastNameStatic = "Johnson";
+teacher3.ageStatic = 40;
+teacher3.subjectStatic = "Science";
+teacher3.gradeStatic = "11th";
+teacher3.salaryStatic = 75000.0;
+teacher3.emailStatic = "bob.johnson@school.edu";
+teacher3.phoneNumberStatic = "555-9012";
+teacher3.addressStatic = "789 Oak St";
+teacher3.cityStatic = "Anytown";
+teacher3.stateStatic = "TX";
+teacher3.zipCodeStatic = "77001";
+
+teacher4.teacherIdStatic = 1004;
+teacher4.firstNameStatic = "Alice";
+teacher4.lastNameStatic = "Williams";
+teacher4.ageStatic = 29;
+teacher4.subjectStatic = "History";
+teacher4.gradeStatic = "10th";
+teacher4.salaryStatic = 68000.0;
+teacher4.emailStatic = "alice.williams@school.edu";
+teacher4.phoneNumberStatic = "555-1111";
+teacher4.addressStatic = "901 Maple St";
+teacher4.cityStatic = "Anytown";
+teacher4.stateStatic = "IL";
+teacher4.zipCodeStatic = "60601";
+
+teacher5.teacherIdStatic = 1005;
+teacher5.firstNameStatic = "Mike";
+teacher5.lastNameStatic = "Davis";
+teacher5.ageStatic = 36;
+teacher5.subjectStatic = "Physical Education";
+teacher5.gradeStatic = "9th";
+teacher5.salaryStatic = 70000.0;
+teacher5.emailStatic = "mike.davis@school.edu";
+teacher5.phoneNumberStatic = "555-2222";
+teacher5.addressStatic = "234 Walnut St";
+teacher5.cityStatic = "Anytown";
+teacher5.stateStatic = "GA";
+teacher5.zipCodeStatic = "31201";
+
+
+teacher6.teacherIdStatic = 1006;
+teacher6.firstNameStatic = "Emily";
+teacher6.lastNameStatic = "Patel";
+teacher6.ageStatic = 32;
+teacher6.subjectStatic = "Foreign Language";
+teacher6.gradeStatic = "11th";
+teacher6.salaryStatic = 69000.0;
+teacher6.emailStatic = "emily.patel@school.edu";
+teacher6.phoneNumberStatic = "555-3333";
+teacher6.addressStatic = "678 Cedar St";
+teacher6.cityStatic = "Anytown";
+teacher6.stateStatic = "NJ";
+teacher6.zipCodeStatic = "08001";
+
+teacher7.teacherIdStatic = 1007;
+teacher7.firstNameStatic = "Kevin";
+teacher7.lastNameStatic = "Lee";
+teacher7.ageStatic = 39;
+teacher7.subjectStatic = "Music";
+teacher7.gradeStatic = "9th";
+teacher7.salaryStatic = 71000.0;
+teacher7.emailStatic = "kevin.lee@school.edu";
+teacher7.phoneNumberStatic = "555-4444";
+teacher7.addressStatic = "345 Birch St";
+teacher7.cityStatic = "Anytown";
+teacher7.stateStatic = "MI";
+teacher7.zipCodeStatic = "48101";
+
+teacher8.teacherIdStatic = 1008;
+teacher8.firstNameStatic = "Rachel";
+teacher8.lastNameStatic = "Garcia";
+teacher8.ageStatic = 31;
+teacher8.subjectStatic = "Art";
+teacher8.gradeStatic = "10th";
+teacher8.salaryStatic = 68000.0;
+teacher8.emailStatic = "rachel.garcia@school.edu";
+teacher8.phoneNumberStatic = "555-5555";
+teacher8.addressStatic = "567 Elm St";
+teacher8.cityStatic = "Anytown";
+teacher8.stateStatic = "OH";
+teacher8.zipCodeStatic = "43210";
+
+teacher9.teacherIdStatic = 1009;
+teacher9.firstNameStatic = "Chris";
+teacher9.lastNameStatic = "Harris";
+teacher9.ageStatic = 38;
+teacher9.subjectStatic = "Physical Education";
+teacher9.gradeStatic = "11th";
+teacher9.salaryStatic = 72000.0;
+teacher9.emailStatic = "chris.harris@school.edu";
+teacher9.phoneNumberStatic = "555-6666";
+teacher9.addressStatic = "890 Cherry St";
+teacher9.cityStatic = "Anytown";
+teacher9.stateStatic = "PA";
+teacher9.zipCodeStatic = "19101";
+
+teacher10.teacherIdStatic = 1010;
+teacher10.firstNameStatic = "Lisa";
+teacher10.lastNameStatic = "Martin";
+teacher10.ageStatic = 33;
+teacher10.subjectStatic = "Science";
+teacher10.gradeStatic = "9th";
+teacher10.salaryStatic = 70000.0;
+teacher10.emailStatic = "lisa.martin@school.edu";
+teacher10.phoneNumberStatic = "555-7777";
+teacher10.addressStatic = "234 Walnut St";
+teacher10.cityStatic = "Anytown";
+teacher10.stateStatic = "NC";
+teacher10.zipCodeStatic = "28201";
+
+
+teacher11.teacherIdStatic = 1011;
+teacher11.firstNameStatic = "Jessica";
+teacher11.lastNameStatic = "Thompson";
+teacher11.ageStatic = 36;
+teacher11.subjectStatic = "History";
+teacher11.gradeStatic = "10th";
+teacher11.salaryStatic = 69000.0;
+teacher11.emailStatic = "jessica.thompson@school.edu";
+teacher11.phoneNumberStatic = "555-8888";
+teacher11.addressStatic = "678 Oak St";
+teacher11.cityStatic = "Anytown";
+teacher11.stateStatic = "VA";
+teacher11.zipCodeStatic = "20101";
+
+teacher12.teacherIdStatic = 1012;
+teacher12.firstNameStatic = "Brian";
+teacher12.lastNameStatic = "Hall";
+teacher12.ageStatic = 37;
+teacher12.subjectStatic = "Math";
+teacher12.gradeStatic = "11th";
+teacher12.salaryStatic = 71000.0;
+teacher12.emailStatic = "brian.hall@school.edu";
+teacher12.phoneNumberStatic = "555-9999";
+teacher12.addressStatic = "345 Maple St";
+teacher12.cityStatic = "Anytown";
+teacher12.stateStatic = "WA";
+teacher12.zipCodeStatic = "98101";
+
+teacher13.teacherIdStatic = 1013;
+teacher13.firstNameStatic = "Nicole";
+teacher13.lastNameStatic = "Walker";
+teacher13.ageStatic = 34;
+teacher13.subjectStatic = "English";
+teacher13.gradeStatic = "9th";
+teacher13.salaryStatic = 68000.0;
+teacher13.emailStatic = "nicole.walker@school.edu";
+teacher13.phoneNumberStatic = "555-0000";
+teacher13.addressStatic = "567 Cedar St";
+teacher13.cityStatic = "Anytown";
+teacher13.stateStatic = "AZ";
+teacher13.zipCodeStatic = "85001";
+
+teacher14.teacherIdStatic = 1014;
+teacher14.firstNameStatic = "Tyler";
+teacher14.lastNameStatic = "James";
+teacher14.ageStatic = 35;
+teacher14.subjectStatic = "Science";
+teacher14.gradeStatic = "10th";
+teacher14.salaryStatic = 70000.0;
+teacher14.emailStatic = "tyler.james@school.edu";
+teacher14.phoneNumberStatic = "555-1111";
+teacher14.addressStatic = "890 Cherry St";
+teacher14.cityStatic = "Anytown";
+teacher14.stateStatic = "LA";
+teacher14.zipCodeStatic = "70101";
+
+teacher15.teacherIdStatic = 1015;
+teacher15.firstNameStatic = "Amanda";
+teacher15.lastNameStatic = "Garcia";
+teacher15.ageStatic = 33;
+teacher15.subjectStatic = "Foreign Language";
+teacher15.gradeStatic = "11th";
+teacher15.salaryStatic = 69000.0;
+teacher15.emailStatic = "amanda.garcia@school.edu";
+teacher15.phoneNumberStatic = "555-2222";
+teacher15.addressStatic = "234 Walnut St";
+teacher15.cityStatic = "Anytown";
+teacher15.stateStatic = "TX";
+teacher15.zipCodeStatic = "77001";
+
+teacher16.teacherIdStatic = 1016;
+teacher16.firstNameStatic = "Richard";
+teacher16.lastNameStatic = "Lewis";
+teacher16.ageStatic = 38;
+teacher16.subjectStatic = "History";
+teacher16.gradeStatic = "9th";
+teacher16.salaryStatic = 71000.0;
+teacher16.emailStatic = "richard.lewis@school.edu";
+teacher16.phoneNumberStatic = "555-3333";
+teacher16.addressStatic = "678 Oak St";
+teacher16.cityStatic = "Anytown";
+teacher16.stateStatic = "GA";
+teacher16.zipCodeStatic = "31201";
+
+teacher17.teacherIdStatic = 1017;
+teacher17.firstNameStatic = "Elizabeth";
+teacher17.lastNameStatic = "Patel";
+teacher17.ageStatic = 36;
+teacher17.subjectStatic = "Art";
+teacher17.gradeStatic = "10th";
+teacher17.salaryStatic = 68000.0;
+teacher17.emailStatic = "elizabeth.patel@school.edu";
+teacher17.phoneNumberStatic = "555-4444";
+teacher17.addressStatic = "345 Maple St";
+teacher17.cityStatic = "Anytown";
+teacher17.stateStatic = "IL";
+teacher17.zipCodeStatic = "60601";
+
+
+
+
+    }
+}
