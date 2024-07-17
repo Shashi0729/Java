@@ -608,7 +608,7 @@ athlete16.numberOfGoalsStatic = 50;
 athlete16.yearsOfExperienceStatic = 20;
 athlete16.numberOfAssistsStatic = 40;
 athlete16.sportsEquipmentIdStatic = 6000000000L;
-athlete16.enduranceLevelStatic = 1.0f;
+athlete16.enduranceLevelStatic =1.0f;
 athlete16.reactionTimeStatic = 3.0;
 athlete16.sportStatic = 'U';
 athlete16.hasWonChampionshipStatic = true;
@@ -630,7 +630,9 @@ athlete17.enduranceLevelStatic = 1.0f;
 athlete17.reactionTimeStatic = 3.0;
 athlete17.sportStatic = 'U';
 athlete17.hasWonChampionshipStatic = true;
-athlete17.numberOfAwardsStatic = 20;
+athlete17.numberOfAwardsStatic = 20; 
+
+
 
 }
 	}
