@@ -9,11 +9,11 @@ public class MyInfo {
     public static char myInfoGrade = 'A';
 
  
-    private int infoId;
-    private String infoName;
-    private boolean infoActive;
-    private double infoScore;
-    private char infoGrade;
+     int infoId;
+     String infoName;
+     boolean infoActive;
+     double infoScore;
+     char infoGrade;
 
    
     public MyInfo(int infoId, String infoName, boolean infoActive, double infoScore, char infoGrade) {

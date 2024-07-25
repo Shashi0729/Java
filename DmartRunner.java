@@ -1,25 +1,25 @@
-public class ShopRunner{
+public class DmartRunner{
 
 public static void main(String... args){
-Shop shop=new Shop();
+Dmart shop=new Dmart();
 int i=shop.getLenght();
 System.out.println("length is:"+i);
-shop.setName("BSC");
-shop.setName("ORIAN");
-shop.setName("MALL OF ASIA");
-shop.setName("MANTRI MALL");
-shop.setName("SUDARSHAN");
+shop.setName("TOWEL");
+shop.setName("SOAP");
+shop.setName("BRUSH");
+shop.setName("BAG");
+shop.setName("7UP");
 shop.displayElement();
 
 System.out.println("-----Search-----");
-String RETURN=shop.searchName("BSC");
+String RETURN=shop.searchName("BAG");
 System.out.println(RETURN);
 System.out.println("-----Update-----");
-String UPDATE=shop.updateName("BSC","GT MALL");
+String UPDATE=shop.updateName("BAG","TOOTHPASTE");
 System.out.println(UPDATE);
 shop.displayElement();
 System.out.println("-----Delete-----");
-String DELETE=shop.deleteName("GT MALL");
+String DELETE=shop.deleteName("SOAP");
 System.out.println(DELETE);
 shop.displayElement();
 

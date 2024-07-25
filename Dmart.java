@@ -1,17 +1,17 @@
-class Shop{
+class Dmart{
 
-public String names[] = new String[4];
+public String pnames[] = new String[4];
 public int index=0;
 
 public int getLenght(){
-	return this.names.length;
+	return this.pnames.length;
 	
 }
  public void setName(String name){
 	 if(this.index<this.getLenght()){
 		// System.out.println("Array is not full");
 		 //System.out.println("Shops is:"+name);
-		 this.names[index]=name;
+		 this.pnames[index]=name;
 		 index++;
 	 }
 	else{
@@ -22,16 +22,16 @@ public int getLenght(){
 	 public void displayElement(){
 		 
 		 for(int index=0;index<this.getLenght();index++){
-			 System.out.println("Shop are:"+names[index]);
+			 System.out.println("Products are:"+pnames[index]);
 			 
 		 }
 	 }
 	 
 	 	 //search
 	  public String searchName(String name){
-	  for(String index : names){
+	  for(String index : pnames){
 	 if(index == name){
-		  System.out.println("Shops is:"+index);
+		  System.out.println("Product is:"+index);
 		  return "Shop found.";
 	 }
 	
@@ -40,8 +40,8 @@ public int getLenght(){
  //update
  	  public String updateName(String oldName, String newName){
 	  for(int i=0;i<this.getLenght();i++){
-	 if(oldName==names[i]){
-		  names[i]=newName;
+	 if(oldName==pnames[i]){
+		  pnames[i]=newName;
 		  return "Updated";
 	 }
 	
@@ -51,12 +51,14 @@ public int getLenght(){
  //Delete
  	  public String deleteName(String ShopName){
 	  for(int i=0;i<this.getLenght();i++){
-	 if(ShopName==names[i]){
-		  names[i]=null;
+	 if(ShopName==pnames[i]){
+		  pnames[i]=null;
 		  return "Deleted";
 	 }
 	
 	  }return "not found";
  }
  }
+
+
 
