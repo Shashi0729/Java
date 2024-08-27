@@ -15,7 +15,7 @@ public int getLenght(){
 		 index++;
 	 }
 	else{
-		//System.out.println("Array is full");
+		System.out.println("Array is full");
 	}
  }
 	 
